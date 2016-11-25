@@ -1,0 +1,79 @@
+* {margin: 0; padding: 0;}
+/*sets background to the image "bakrund2.jpg" with the size of 1920x1080 to cover whole background*/
+body {
+	background-color: GREY; /*<a href="bakrund2.html"><img src="galleria/bakrund2.jpg" title="http://www.flickr.com/photos/28145073@N08/6365090557/in/photolist-aGsKED-fC7bqs-bsCkSx-eUeLc7-bXKNKm-g6zKec-7HaRTD-b7mPSF-b7mE44-bXakXk-iXFu9Y-aAE6a2-8aYbTe-dtJ8at-7MR5A1-7MJ8Ed-7ME9v6-7JUZze-iihRmv-8t9wPC-8gnNiv-9d4jky-8t9uRd-8gr4Bu-8hYDeX-8i3bRU-8i34tW-8hYC1z-8i2JE5-8i2QqL-8hYnXn-edUaay-9Gr1AU-9GqUE1-9GqW3C-dH3XH6-dBzHBu-8vKtNb-8sDCYf-bRRuJV-a2s4qd-a2pBtK-a686Zp-ajSiHL-e6jonS-e6c72b-9ikyYp-gDamrz-ameo7p-amhbNE-bB5dT6">
+														<figcaption>Mountain view from the airplane windows <a href="http://www.flickr.com/photos/aigle_dore/">Moyan Brenn</a>
+												*/
+	
+	background-size: 1920px 1080px;
+	background-repeat: no-repeat;
+}
+/*sets the box logo as size 800x150. With the background of my logo "logotyp.jpg"  */
+#logo{
+	width: 785px ; 
+	height: 150px ;
+	background-color: BLACK;  
+}
+/* sets the menu for the links that guids the user around the webbsite. */
+#meny {
+	width: 200px;
+	height: 700px;
+	background-color:rgba(135,206,255,0.5);
+	float: left;
+	display: block;
+	margin-top: 5px;
+}
+/* makes the apperences of my links in the menu how they looks in standard */
+#meny a{ 
+	font-family: "Times New Roman", Times, serif;
+	display: block; 
+	font-size: 1.1em;
+	font-weight: lighter;
+	letter-spacing:0.1em;
+	padding:10px; 
+}
+/*color on the link and no undertexts ___*/
+#meny a:link {
+	color: black; 
+	text-decoration:none;
+}
+
+#meny a:visited {
+	color: black;
+	text-decoration:none;
+	font-weight:bold;
+}
+/*when the user hover with the mouse over a link it changes to blue backgound and gets bold with letterspacing.*/
+#meny a:hover {
+	color: black; 
+	background-color: green; 
+	text-decoration: none; 
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+/*when you hold in your mouse 1 over a link*/
+#meny a:active {
+	color: black; 
+	background-color: green; 
+	text-decoration: none; 
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+/*the center box that is located right to the meny box. is transparant like every box except the logo.*/
+#centerdoc {
+	width: 580px;
+	height: 700px;
+	background-color:rgba(135,206,255,0.5);
+	float: right;
+	margin-top: 5px;
+	overflow: auto;
+}
+
+
+/*the mainbox or a wrapper around al the other boxes so they are center of the page.*/
+#mainbox {
+	width: 785px;
+	height: 100%;
+	margin: auto;
+	margin-top: 5px;
+}
